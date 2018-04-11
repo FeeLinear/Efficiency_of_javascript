@@ -14,3 +14,11 @@ JS代码效率笔记
 
 
 ## 3、 数组遍历可以使用forEach 或 map方法
+
+## 4、 call及apply基本应用于改变this指向
+``` shell
+fun.call(obj, "aa", "hh") / fun.apply(obj, ["aa", "hh"])
+fun(a, b){
+	//this指向obj
+}
+```
